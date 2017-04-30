@@ -1,0 +1,88 @@
+@ArtFont: 40px;
+
+.Article {
+
+  &-content {
+    height: 503px;
+    padding-top: 100px;
+    display: block;
+  }
+
+  &-right {
+    text-align: right;
+  }
+
+  &-doc {
+    display: inline-block;
+    width: 235px;
+    height: 273px;
+    overflow: hidden;
+  }
+
+  &-doc-img {
+    height: 100%;
+    width: auto;
+
+  }
+
+  &-center {
+    color: #37414e;
+    font-family: RobotoSlab, sans-serif;
+    line-height: 42px;
+    text-align: justify;
+    margin-left: 22px;
+  }
+
+  &-header {
+    display: block;
+    font-size: @ArtFont;
+
+  }
+  &-description {
+    font-size: @ArtFont/2;
+
+    display: block;
+  }
+  &-icons {
+    text-align: right;
+    font-size: 0;
+    white-space: nowrap;
+
+    &-link {
+      text-align: center;
+      font-size: 30px;
+      line-height: 1;
+      text-decoration: none;
+      display: block;
+
+      &-fa {
+        background: #67bf95;
+        border-radius: 50%;
+        display: inline-block;
+        padding: 15px;
+      }
+    }
+
+    &-facebook-link {
+
+      text-align: center;
+      font-size: 30px;
+      line-height: 1;
+      text-decoration: none;
+      display: block;
+
+      &-fa {
+        border:  5px solid #67bf95;
+        border-radius: 50%;
+        display: inline-block;
+        padding: 10px 15px 10px 15px;
+
+      }
+
+    }
+  }
+}
+
+.fa-facebook {
+  color: #67bf95;
+}

@@ -1,0 +1,46 @@
+@lgcolor: #cad1db;
+@lgbgcolor:#3d4b60;
+
+.Header-login{
+  word-spacing: 22px;
+}
+
+.Login-text{
+  font-family: Roboto-ThinItalic, sans-serif;
+  display: inline-block;
+  color: #c9ced7;
+  font-size: 20px;
+  word-spacing: normal;
+}
+
+
+.Button{
+  display: inline-block;
+  text-decoration: none;
+  background: @lgbgcolor;
+  padding: 12px 17px 12px 17px;
+  position: relative;
+  border-radius: 10px;
+  color: @lgcolor;
+  text-transform: uppercase;
+  font-size: 18px;
+  transition: .3s;
+
+  &:focus,
+  &:hover,
+  &:active{
+    text-decoration: none;
+  }
+
+  &:focus,
+  &:hover {
+    color: lighten(@lgcolor, 15%);
+    background: lighten(@lgbgcolor, 15%);
+  }
+
+  &:active {
+    color: darcen(@lgcolor, 15%);
+    background: darcen(@lgbgcolor, 15%);
+  }
+
+}
