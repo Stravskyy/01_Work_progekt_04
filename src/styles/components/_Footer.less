@@ -1,0 +1,55 @@
+
+footer {
+  background: #2a2d33;
+}
+
+.footer-pannel {
+  height: 130px;
+  &-logo,
+  &-btn {
+    height: 100%;
+
+    &:before {
+      content: "";
+      display: inline-block;
+      font-size: 0;
+      width: 0;
+      height: 100%;
+      vertical-align: middle;
+    }
+  }
+
+  &-logo {
+
+  }
+  &-login {
+    text-align: right;
+
+  }
+}
+
+.footer-pannel-btn{
+  text-align: right;
+}
+.footer-pannel-link{
+  text-decoration: none;
+  margin: 0 0 0 45px;
+
+
+  &-back{
+    color: #2f3338;
+  }
+  &-bord{
+    color: #454648;
+  }
+  &-item{
+    color: #656566;
+  }
+
+  &:focus,
+  &:hover,
+  &:active{
+    text-decoration: none;
+  }
+}
+
